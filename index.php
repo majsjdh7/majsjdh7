@@ -7,7 +7,7 @@
 
 error_reporting(0);
 date_default_timezone_set('Asia/Tehran');
-define('API_KEY','0629363:AAHAzNxgLnERzv8-4pMWjvTOnz3o'); //توکنتون اینجا بزارید
+define('API_KEY','5610525783:AAEo7pQgatXAtdCy2gJ-3xHP2Cp2QWMH8fs'); //توکنتون اینجا بزارید
 
 $Update = json_decode(file_get_contents('php://input'));
 if(isset($Update)){
